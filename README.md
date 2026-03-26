@@ -50,9 +50,8 @@ Como o dataset original não traz um rótulo explícito de sentimento, foi adota
 
 Observações importantes:
 
-- Trata-se de uma aproximação, não de um “ground truth” perfeito.
+- Trata-se de uma aproximação, não isenta de ruído.
 - A base de reclamações tende naturalmente a ser **fortemente enviesada para o negativo**, o que gera desbalanceamento entre as classes.
-- Essa abordagem é adequada ao contexto do desafio, que permite o uso de regras ou anotações manuais para construção da variável alvo.
 
 ---
 
@@ -122,7 +121,7 @@ Exemplo de resultado (janela de 90 dias, rótulo heurístico baseado em dicioná
 Embora os rótulos sejam heurísticos e a base desbalanceada, o modelo é capaz de:
 
 - Capturar bem os padrões textuais associados aos poucos casos rotulados como positivos.
-- Manter ótimo desempenho global, o que é coerente com a literatura de sentimento em bases desbalanceadas (uso de F1 e métricas por classe, em vez de só acurácia).[web:94][web:87][web:96]
+- Manter ótimo desempenho global, o que é coerente com a literatura de sentimento em bases desbalanceadas (uso de F1 e métricas por classe, em vez de só acurácia).
 
 ---
 
@@ -146,22 +145,3 @@ Essas visualizações ajudam a responder:
 > “Quais são as principais dores dos clientes em cada categoria de produto financeiro?”
 
 ---
-
-## 8. Como Reproduzir o Projeto
-
-### 8.1. Pré-requisitos
-
-- Python 3.9+  
-- Bibliotecas principais:
-  - `requests`, `pandas`, `numpy`
-  - `nltk`
-  - `tensorflow` / `keras`
-  - `scikit-learn`
-  - `matplotlib`, `seaborn`, `wordcloud`
-
-Exemplo de instalação básica:
-
-```bash
-pip install -r requirements.txt
-# ou, em ambiente controlado:
-# pip install requests pandas numpy nltk tensorflow scikit-learn matplotlib seaborn wordcloud
