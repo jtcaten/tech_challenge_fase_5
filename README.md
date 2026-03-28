@@ -205,3 +205,10 @@ Apesar da simplicidade da abordagem de rotulagem, o modelo é capaz de capturar 
 As análises exploratórias complementam o modelo ao evidenciar as principais dores enfrentadas pelos consumidores por categoria de produto, contribuindo para uma melhor compreensão dos problemas relatados.
 
 Ainda assim, os resultados devem ser interpretados considerando as limitações da rotulagem heurística utilizada.
+
+---
+
+## 11. Vídeo
+
+Vídeo de até 5 (cinco) minutos apresentando as principais dores e o sentimento dos clientes nas ligações: https://youtu.be/08oQrN1Komc.
+
