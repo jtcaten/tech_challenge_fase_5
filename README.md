@@ -6,8 +6,6 @@ Este projeto trata-se da entrega do Tech Challenge da Fase 5 do Grupo 15, compos
 
 Tem como objetivo analisar reclamações de consumidores utilizando técnicas de Processamento de Linguagem Natural (NLP) e aprendizado de máquina.
 
-Trata-se da entrega do Tech Challenge da Fase 5 do Grupo 15, composto por Jarbas Ten Caten e Paulo Sergio Xavier Santos.
-
 Os dados são obtidos por meio da API pública do Consumer Financial Protection Bureau (CFPB), contendo descrições textuais das reclamações registradas por consumidores.
 
 O projeto realiza:
